@@ -51,6 +51,7 @@ namespace AnotaRtf
             this.tb2 = new System.Windows.Forms.TabPage();
             this.rtf2 = new System.Windows.Forms.RichTextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.lbModif = new System.Windows.Forms.ToolStripLabel();
             this.toolStrip1.SuspendLayout();
             this.tabControl.SuspendLayout();
             this.tb1.SuspendLayout();
@@ -72,7 +73,8 @@ namespace AnotaRtf
             this.tsVerde,
             this.tsLaranja,
             this.tsPreto,
-            this.tsCinza});
+            this.tsCinza,
+            this.lbModif});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(800, 25);
@@ -264,8 +266,15 @@ namespace AnotaRtf
             // 
             // timer1
             // 
-            this.timer1.Interval = 1000;
+            this.timer1.Interval = 2000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // lbModif
+            // 
+            this.lbModif.Name = "lbModif";
+            this.lbModif.Size = new System.Drawing.Size(68, 22);
+            this.lbModif.Text = "Modificado";
+            this.lbModif.Visible = false;
             // 
             // Form1
             // 
@@ -310,6 +319,7 @@ namespace AnotaRtf
         private System.Windows.Forms.RichTextBox rtf1;
         private System.Windows.Forms.RichTextBox rtf2;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ToolStripLabel lbModif;
     }
 }
 

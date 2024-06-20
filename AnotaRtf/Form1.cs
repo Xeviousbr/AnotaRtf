@@ -141,6 +141,7 @@ namespace AnotaRtf
         {
             timer1.Enabled = false;
             rtf1.SaveFile(caminhoDoArquivo);
+            lbModif.Visible = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -164,6 +165,7 @@ namespace AnotaRtf
             if (!carregando)
             {
                 timer1.Enabled = true;
+                lbModif.Visible = true;
             }
         }
     }
