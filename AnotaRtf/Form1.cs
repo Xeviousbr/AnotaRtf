@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,10 +13,15 @@ namespace AnotaRtf
 {
     public partial class Form1 : Form
     {
+        private string caminhoDoArquivo = "";
+        private bool carregando = true;
+
         public Form1()
         {
             InitializeComponent();
         }
+
+        #region Botões        
 
         private void toolStripButtonBold_Click(object sender, EventArgs e)
         {
@@ -127,6 +133,38 @@ namespace AnotaRtf
         private void tsCinza_Click(object sender, EventArgs e)
         {
             rtf1.SelectionColor = Color.Gray;
+        }
+
+#endregion
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer1.Enabled = false;
+            rtf1.SaveFile(caminhoDoArquivo);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            caminhoDoArquivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "anotacoes.rtf");
+            timer1.Enabled = false;
+            try
+            {
+                carregando = true;
+                rtf1.LoadFile(caminhoDoArquivo);
+            }
+            catch (Exception)
+            {
+                // 
+            }
+            carregando = false;
+        }
+
+        private void rtf1_TextChanged(object sender, EventArgs e)
+        {
+            if (!carregando)
+            {
+                timer1.Enabled = true;
+            }
         }
     }
 }

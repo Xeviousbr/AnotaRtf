@@ -29,6 +29,7 @@ namespace AnotaRtf
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButtonBold = new System.Windows.Forms.ToolStripButton();
@@ -49,6 +50,7 @@ namespace AnotaRtf
             this.rtf1 = new System.Windows.Forms.RichTextBox();
             this.tb2 = new System.Windows.Forms.TabPage();
             this.rtf2 = new System.Windows.Forms.RichTextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.toolStrip1.SuspendLayout();
             this.tabControl.SuspendLayout();
             this.tb1.SuspendLayout();
@@ -238,6 +240,7 @@ namespace AnotaRtf
             this.rtf1.Size = new System.Drawing.Size(786, 391);
             this.rtf1.TabIndex = 0;
             this.rtf1.Text = "";
+            this.rtf1.TextChanged += new System.EventHandler(this.rtf1_TextChanged);
             // 
             // tb2
             // 
@@ -259,6 +262,11 @@ namespace AnotaRtf
             this.rtf2.TabIndex = 0;
             this.rtf2.Text = "";
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -266,8 +274,10 @@ namespace AnotaRtf
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabControl);
             this.Controls.Add(this.toolStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "AnoteitoRtf";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.tabControl.ResumeLayout(false);
@@ -299,6 +309,7 @@ namespace AnotaRtf
         private System.Windows.Forms.TabPage tb2;
         private System.Windows.Forms.RichTextBox rtf1;
         private System.Windows.Forms.RichTextBox rtf2;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
