@@ -25,24 +25,16 @@ namespace AnotaRtf
 
         private void ApplyFormatting(Action applyStyle, bool applyToLineIfNoSelection = true)
         {
-            // Verifica se há algum texto selecionado
             if (rtf1.SelectionLength > 0 || !applyToLineIfNoSelection)
             {
-                // Aplica o estilo ao texto selecionado
                 applyStyle();
             }
             else
             {
-                // Se não houver nada selecionado, aplica o estilo a toda a linha
                 int start = rtf1.GetFirstCharIndexOfCurrentLine();
-                int length = rtf1.Text.Length - start;
-
-                // Define uma seleção que engloba toda a linha
+                int length = rtf1.Lines[rtf1.GetLineFromCharIndex(start)].Length;
                 rtf1.Select(start, length);
-
                 applyStyle();
-
-                // Remove a seleção para manter a experiência do usuário
                 rtf1.Select(start, 0);
             }
         }
