@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace AnotaRtf
 {
     partial class Form1
