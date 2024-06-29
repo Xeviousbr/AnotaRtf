@@ -17,3 +17,4 @@ D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.dll
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\ref\AnotaRtf.dll
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.pdb
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.genruntimeconfig.cache
+D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\TeleBonifacio.OperPagar.resources

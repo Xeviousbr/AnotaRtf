@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "AnotaRtf/1.0.0": {
+        "dependencies": {
+          "EditRtf": "1.0.0"
+        },
         "runtime": {
           "AnotaRtf.dll": {}
+        }
+      },
+      "EditRtf/1.0.0": {
+        "runtime": {
+          "EditRtf.dll": {}
         }
       }
     }
   },
   "libraries": {
     "AnotaRtf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EditRtf/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
