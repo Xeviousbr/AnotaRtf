@@ -1,6 +1,21 @@
 {\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}
+{\colortbl ;\red255\green0\blue0;}
 {\*\generator Riched20 10.0.19041}\viewkind4\uc1 
-\pard\f0\fs24 Aqui \'e9 descriptografado\par
+\pard\f0\fs24 Aqui \'e9 \cf1 descriptografado\cf0\par
 \par
-outro fado\f1\par
+outro fado\par
+\par
+outro fado\par
+\par
+outro fadoif (Clipboard.ContainsData(DataFormats.Rtf))\par
+    \{\par
+        rtf1.SelectedRtf = (string)Clipboard.GetData(DataFormats.Rtf);\par
+    \}\par
+    else if (Clipboard.ContainsText())\par
+    \{\par
+        rtf1.SelectedText = Clipboard.GetText();\par
+    \}\par
+\par
+Aqui \'e9 \cf1 descriptografado\cf0\par
+\f1\par
 }
