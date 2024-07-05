@@ -35,10 +35,10 @@ namespace AnotaRtf
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tb1 = new System.Windows.Forms.TabPage();
-            this.editRtf1 = new EditRtf.EditRtf();
             this.tb2 = new System.Windows.Forms.TabPage();
             this.rtf2 = new System.Windows.Forms.RichTextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.editRtf1 = new EditRtf.EditRtf();
             this.tabControl.SuspendLayout();
             this.tb1.SuspendLayout();
             this.tb2.SuspendLayout();
@@ -66,15 +66,6 @@ namespace AnotaRtf
             this.tb1.Text = "Aba Um";
             this.tb1.UseVisualStyleBackColor = true;
             // 
-            // editRtf1
-            // 
-            this.editRtf1.Criptografato = false;
-            this.editRtf1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.editRtf1.Location = new System.Drawing.Point(3, 3);
-            this.editRtf1.Name = "editRtf1";
-            this.editRtf1.Size = new System.Drawing.Size(786, 416);
-            this.editRtf1.TabIndex = 0;
-            // 
             // tb2
             // 
             this.tb2.Controls.Add(this.rtf2);
@@ -98,6 +89,15 @@ namespace AnotaRtf
             // timer1
             // 
             this.timer1.Interval = 2000;
+            // 
+            // editRtf1
+            // 
+            this.editRtf1.Criptografato = false;
+            this.editRtf1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.editRtf1.Location = new System.Drawing.Point(3, 3);
+            this.editRtf1.Name = "editRtf1";
+            this.editRtf1.Size = new System.Drawing.Size(786, 416);
+            this.editRtf1.TabIndex = 0;
             // 
             // Form1
             // 

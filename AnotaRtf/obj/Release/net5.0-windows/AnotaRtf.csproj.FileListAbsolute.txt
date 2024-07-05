@@ -5,6 +5,8 @@ D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\bin\Release\net5.0-windows\AnotaRtf.runtimeco
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\bin\Release\net5.0-windows\AnotaRtf.dll
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\bin\Release\net5.0-windows\ref\AnotaRtf.dll
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\bin\Release\net5.0-windows\AnotaRtf.pdb
+D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\bin\Release\net5.0-windows\EditRtf.dll
+D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\bin\Release\net5.0-windows\EditRtf.pdb
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.csproj.AssemblyReference.cache
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.Form1.resources
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.Properties.Resources.resources
@@ -13,10 +15,8 @@ D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.Generated
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.AssemblyInfoInputs.cache
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.AssemblyInfo.cs
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.csproj.CoreCompileInputs.cache
+D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.csproj.CopyComplete
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.dll
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\ref\AnotaRtf.dll
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.pdb
 D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.genruntimeconfig.cache
-D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\bin\Release\net5.0-windows\EditRtf.dll
-D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\bin\Release\net5.0-windows\EditRtf.pdb
-D:\Prog\AnotaRtf\AnotaRtf\AnotaRtf\obj\Release\net5.0-windows\AnotaRtf.csproj.CopyComplete
